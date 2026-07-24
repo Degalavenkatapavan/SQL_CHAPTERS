@@ -1,0 +1,101 @@
+INTRODUCTION TO SQL
+
+ HISTORY OF SQL:
+❖	1970 – Dr. E.F. Codd from IBM introduced the Relational Model — a new way to store data in tables instead of flat files.
+❖	1974 – IBM researchers Donald Chamberlin and Raymond Boyce created SEQUEL (Structured English Query Language) to work with Codd's model.
+❖	Later, SEQUEL was renamed SQL because "SEQUEL" was a trademarked term.
+1980s – Oracle became the first company to offer a commercial SQL-based RDBMS.
+❖	1986 – SQL became a standard language approved by ANSI (American National Standards Institute).
+
+What is SQL?
+SQL - Structured Query Language
+SQL stands for Structured Query Language ,which is used to communicate or interact with the Database.
+ 
+ DATA: 
+“Data is a Raw fact which describes the Attributes of an Object / Entity."
+⮚	Raw fact means Unchangeable data 
+⮚	Attributes mean Properties
+⮚	An entity means an Object
+
+ DATABASE :
+❖	The database is a place/ medium that is used to store data in a systematic and organized manner. 
+❖	It is used to perform CRUD operations.
+❖	MySQL Workbench, Oracle DB, MongoDB, PostgreSQL
+
+We can perform basic operations on a database, and they are universally called as 
+CRUD Operations.
+C - CREATE / INSERT 
+R - READ / RETRIEVE / FETCH
+U - UPDATE / MODIFY
+D - DROP / DELETE
+
+DBMS (Database Management System) :
+❖	It is a software that is used to maintain and manage the database.
+❖	It provides security for the database.
+❖	We use query language to communicate or interact with DBMS
+❖	DBMS stores the data in the form of files.
+❖	Performing CRUD operations are difficult.
+❖	Two important features that DBMS provides to the database are
+                     1. Security  - UN and PWD
+                     2. Authorisation  -OTP
+What’s Authentication and Authorisation?
+AUTHENTICATION: This is the process of verifying a user's identity. It ensures that the person (or system) trying to access a resource is who they claim to be. Common authentication methods include: 
+∙ Passwords 
+∙ One-Time Pins (OTP) 
+∙ Biometrics (fingerprint, facial recognition) 
+∙ Multi-Factor Authentication (MFA) 6x
+AUTHORISATION: This determines what an authenticated user is allowed to do. Once a user is authenticated, authorization controls what resources they can access and what actions they can perform.
+
+RDBMS (Relational Database management system)
+●	It is a software which is used to maintain and manage the database.
+●	It provides security for the database. 
+●	We use Structured query language (SQL) to communicate or interact with RDBMS 
+●	RDBMS stores the data in the form of tables. 
+●	Performing CRUD operations is easy.
+●	Two important features that RDBMS provides to database are 
+1.	Security
+2.	Authorisation
+ 
+NOTE: 
+1. DBMS understands only the query language. 
+2. RDBMS understands only structured query language.
+3.SQL is not a case-sensitive language.
+
+RELATIONAL MODEL: 
+❖	It’s a database model that organises the data in the form of tables. 
+❖	Relational Model was designed by E.F. CODD (Edgar Frank Codd) 
+❖	In the Relational Model, we can store the data in the form of tables.
+❖	Any DBMS that follows the Relational Model becomes an RDBMS. 
+❖	Any DBMS that follows E.F. Codd's rules becomes an RDBMS
+
+TABLE :
+“A Combination of rows and columns is known as a Table”.
+Rows - The Horizontal section of data in the table.
+Columns - The vertical section of data in the table.
+Cell - The Intersection of rows and columns, or the smallest unit of a
+ table.
+
+RULES OF E.F. CODD:
+RULE-1: The data entered into a cell must be a SINGLE-VALUED DATA.
+
+RULE-2: In RDBMS, we can store everything in the form of tables, including metadata.
+     • Metadata: The details of the data are known as Metadata. 
+     • Everything means Char, numbers, photos, videos, Audios, etc.      
+❖	Metadata is generated automatically. 
+❖	The metadata of the photo will be stored in a table called Meta table. 
+❖	This Meta table is implicitly created by the SQL Engine. 
+
+Rule 3:
+ According to E.F.CODD rules, we can store data in multiple tables, if necessary,  establish a connection between the tables with the help of key attributes. 
+Key attributes  :
+ 1. primary key
+ 2. Foreign Key
+
+RULE-4: Data entered into a table must be validated in 2steps 
+By assigning 
+             1. Data types
+             2. Constraints 
+NOTE: 
+Data types are MANDATORY, whereas constraints are OPTIONAL.
+
+
