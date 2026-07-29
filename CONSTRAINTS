@@ -6,3 +6,9 @@ Types of Constarints :
   3. CHECK
   4. PRIMARY KEY 
   5. FOREIGN KEY 
+
+1. UNIQUE 
+   Unique is a constarint, Which will not accept duplicated or repeated values.
+
+2. NOT NULL
+    Not null is a constarint, Which will not accept null values.
