@@ -67,7 +67,7 @@ S.NO	                       CHAR	                                               
 4.	We should use the CHAR datatype when we expect the data values in a         4. We should use the VARCHAR datatype when we expect the data values in a column are of variable length.
 column are of the same length.	
 5.	Slightly faster for fixed-size data                                         5. Slower for updates due to variable size	
-6.	Fixed-length values (e.g., codes, flags)	                                  6. Variable-length values (e.g., names, emails)
+6.	Fixed-length values (e.g., codes, flags)	                                6. Variable-length values (e.g., names, emails)
 7.	Less storage efficiency (may waste space)                                  	7. More storage efficiency (saves space)
 
 3. DATE:
