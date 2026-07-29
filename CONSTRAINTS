@@ -1,3 +1,8 @@
 CONSTRAINTS
   Constraints are rules given to a column
 Types of Constarints :
+  1. UNIQUE 
+  2. NOT NULL 
+  3. CHECK
+  4. PRIMARY KEY 
+  5. FOREIGN KEY 
