@@ -136,8 +136,8 @@ NCHAR () & NVARCHAR ()
 ❖	Both NCHAR () & NVARCHAR () are used to store Unicode character let’s say multilingual data like Hindi, Tamil, Telugu etc.…
 ❖	If it is fixed length we will go for NCHAR ().
 ❖	If it is variable length we will go for NVARCHAR ().
-
              SYNTAX: NCHAR(SIZE) & NVARCHAR(SIZE)
+
 Versions supported are Oracle 12c, 18c, 19c, 21c.
 DATE DATA TYPES:
 TIMESTAMP:
@@ -161,6 +161,7 @@ Stores date/time normalized to the database time zone, but shows it in user’s 
      SYNTAX: TIMESTAMP WITH LOCAL TIME ZONE
 Real-world use case:
 This datatype is very useful for applications with global users (e.g., Gmail, Zoom meetings, stock trading).
+
 4. INTERVAL YEAR TO MONTH :
 Stores a period/duration in years and months (No Days, Hours, Minutes, Seconds).
      SYNTAX: INTERVAL YEAR TO MONTH
@@ -171,6 +172,7 @@ Real-world use case:
 ❖	Storing subscription periods (2 years 6 months).
 ❖	Employee experience duration.
 ❖	Loan tenures.
+
 5. INTERVAL DAY TO SECOND :
 Stores a period/Duration in days, hours, minutes, seconds.
 Ex: "5 days 04:30:15".
