@@ -11,7 +11,7 @@ Types of Constarints :
      Unique is a constarint, Which will not accept duplicated or repeated values.
 
 2. NOT NULL
-    Not null is a constarint, Which will not accept null values.
+     Not null is a constarint, Which will not accept null values.
 
 2. CHECK 
     Check ia a constraint
