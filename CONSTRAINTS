@@ -14,4 +14,4 @@ Types of Constarints :
      Not null is a constarint, Which will not accept null values.
 
 2. CHECK 
-    Check ia a constraint
+     Check ia a constraint
