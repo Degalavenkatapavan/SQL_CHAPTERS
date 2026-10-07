@@ -19,11 +19,11 @@ Types of Constarints :
 
 4.PRIMARY KEY: 
     It is a constraint which is used to identify the  records uniquely from the table”.
-Characteristics:
-1.It will not accept duplicate/repeated/same values.
-2.It will not accept Null values.
-3.It is a combination of Unique and Not null constraints.
-4.we can have only One Primary Key in a table.
+      Characteristics:
+       1.It will not accept duplicate/repeated/same values.
+       2.It will not accept Null values.
+       3.It is a combination of Unique and Not null constraints.
+       4.we can have only One Primary Key in a table.
 
 5.FOREIGN KEY: 
 It is a constraint which is used to establish the connection between the table”.
