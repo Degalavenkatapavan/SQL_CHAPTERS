@@ -35,62 +35,7 @@ Characteristics:
 5.For an attribute to become a Foreign Key it must be a Primary Key in its own 
    table.
 
-	
-
-     EID 
-
-NUMBER(3)
-Primary key 
-CHECK(EID>0)	
-     ENAME
-
-      VARCHAR(25)
-
-     NOT NULL
-	
-           SAL
-
-NUMBER(6,2)
-
-    CHECK
-   (SAL>0)	 
-                PH_NO
-
-               NUMBER(10)
-                  
-                 UNIQUE
-      
-               NOT NULL
-
-         CHECK(PH_NO>0)
  
- CHECK(LENGTH(PH_NO)=10)
-	
-    DNO
-
- NUMBER(5)
-
-  FOREIGN     
-      KEY
-1	SMITH	2000.35	987654321O	10
-2	ALLEN	3500.55	8765432100	30
-3	WARD	4500.65	8765434456	40
-4	SCOTT	2500.55	7900987890	NULL
-5	JONES	1800.45	9090808077	20
-6	ADAMS	2200.25	7654321009	10
-		
-                                                      EMP
-
-
-NOTE:
-•	A table which consisting of a Foreign key is known as CHILD/SLAVE TABLE (or) A table which is having the reference of another table is called as CHILD/SLAVE TABLE.
-•	A table which consisting of a Primary key is known as Parent/Master table (or) A table which is referring a column to another table is called as PARENT/MASTER table.
-
-1.WRITE THE DIFFERENCE BETWEEN CHAR & VARCHAR
-2. WRITE THE DIFFERENCE BETWEEN VARCHAR & VARCHAR 2
-3. WRITE THE DIFFERENCE BETWEEN PRIMARY KEY &  
-    FOREIGN KEY
-
 
 
 
