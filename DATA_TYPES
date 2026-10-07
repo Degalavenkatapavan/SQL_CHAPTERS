@@ -195,6 +195,7 @@ Same as NUMBER (38), means you can store big whole numbers (up to 38 digits).
 ❖	Default precision = 126 binary digits (≈ 38 decimal digits).
               SYNTAX: FLOAT[(binary_precision)]
    Ex: You type 123.4567, it may store as 123.457
+
 NOTES: 
 ❖	If you want to create a table 
 ⮚	Data types are mandatory
