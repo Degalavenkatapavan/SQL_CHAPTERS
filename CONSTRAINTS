@@ -15,44 +15,18 @@ Types of Constarints :
 
 3.CHECK 
     It is a constraint which is used along with the condition if the condition is satisfied it will accept the values else it will reject the values.”
+    NOTE: - Check constraint can be applied only for numeric columns.
 
-EXAMPLE:
-PH_NO
-NUMBER (10)
-
-
-9878987688         ✔
-99889                  ✖
--9898007865          ✖
-876543210098       ✖
-8989090966           ✔
-						   
-PH_NO
-NUMBER (10)
-                   UNIQUE
-CHECK(PH_NO>0)
-CHECK(LENGTH(PH_NO)=10)
-
-
-9878987688         ✔
-8989090966           ✔
-
-
-	
-
-
-NOTE: - Check constraint can be applied only for numeric columns.
-
-4.PRIMARY KEY: “It is a constraint which is used to identify the 
-                                  records uniquely from the table”.
+4.PRIMARY KEY: 
+    It is a constraint which is used to identify the  records uniquely from the table”.
 Characteristics:
 1.It will not accept duplicate/repeated/same values.
 2.It will not accept Null values.
 3.It is a combination of Unique and Not null constraints.
 4.we can have only One Primary Key in a table.
 
-5.FOREIGN KEY: “It is a constraint which is used to establish the 
-	                                   connection between the table”.
+5.FOREIGN KEY: 
+It is a constraint which is used to establish the connection between the table”.
 Characteristics:
 1.It will accept duplicate/repeated/same values.
 2.It will accept Null values.
