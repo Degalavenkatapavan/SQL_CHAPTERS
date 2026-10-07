@@ -26,7 +26,7 @@ Types of Constarints :
        4.we can have only One Primary Key in a table.
 
 5.FOREIGN KEY: 
-   It is a constraint which is used to establish the connection between the table”.
+   It is a constraint which is used to establish the connection between the table.
      Characteristics:
        1.It will accept duplicate/repeated/same values.
        2.It will accept Null values.
