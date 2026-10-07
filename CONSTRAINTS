@@ -34,24 +34,6 @@ Characteristics:
 4.we can have more than one Foreign Key in a table.
 5.For an attribute to become a Foreign Key it must be a Primary Key in its own 
    table.
- 6.It is also known as “REFRENTIAL INTEGRITY CONSTRAINT”.
-
-
-
-HOW CAN WE ESTABLISH THE CONNECTION B/W THE TABLES? LET’S SEE!
-
-EXAMPLE:	 	      DEPT 
-
-                DNO Number(3)
-Primary key	            DNAME
-      VARCHAR (25)
-          Not null unique	                  LOC
-         VARCHAR (25) unique not null
-10	RESEARCH	NEW YORK
-20	SALES	BOSTON
-30	OPEARTIONS	CHICAGO
-40
-ACCOUNTING	DALLAS
 
 	
 
