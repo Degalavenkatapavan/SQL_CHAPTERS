@@ -26,14 +26,14 @@ Types of Constarints :
        4.we can have only One Primary Key in a table.
 
 5.FOREIGN KEY: 
-It is a constraint which is used to establish the connection between the table”.
-Characteristics:
-1.It will accept duplicate/repeated/same values.
-2.It will accept Null values.
-3.It is not a combination of Unique and Not null constraints.
-4.we can have more than one Foreign Key in a table.
-5.For an attribute to become a Foreign Key it must be a Primary Key in its own 
-   table.
+   It is a constraint which is used to establish the connection between the table”.
+     Characteristics:
+       1.It will accept duplicate/repeated/same values.
+       2.It will accept Null values.
+       3.It is not a combination of Unique and Not null constraints.
+       4.we can have more than one Foreign Key in a table.
+       5.For an attribute to become a Foreign Key it must be a Primary Key in its own 
+        table.
 
  
 
