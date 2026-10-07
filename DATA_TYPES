@@ -16,8 +16,8 @@ TYPES OF DATA TYPES :
       3.DATE ()
       4.NUMBER ()
       5. LARGE OBJECTS
-           I.	BLOB - Binary large objects
-          II.	CLOB – Character large objects
+           I.BLOB - Binary large objects
+          II.CLOB – Character large objects
 
 ADDITIONAL DATA TYPES:
     ●	Numeric Data types:
@@ -64,7 +64,7 @@ S.NO	                       CHAR	                                               
 2.	CHAR stands for "Character"	                                                2. VARCHAR stands for "Variable Character"
 3.	Storage size of CHAR datatypes is equal to n bytes i.e. set length	        3. The storage size of the VARCHAR datatype is equal to the actual length of the entered string in bytes.
 4.	We should use the CHAR datatype when we expect the data values in a         4. We should use the VARCHAR datatype when we expect the data values in a column are of variable length.
-column are of the same length.	
+    column are of the same length.	
 5.	Slightly faster for fixed-size data                                         5. Slower for updates due to variable size	
 6.	Fixed-length values (e.g., codes, flags)	                                6. Variable-length values (e.g., names, emails)
 7.	Less storage efficiency (may waste space)                                  	7. More storage efficiency (saves space)
@@ -124,9 +124,9 @@ Step-1 Syntax: Number (p, s):
 ❖	(if it is -2 ten’s place, -3 means hundred’s place, -4 means thousand’s place)
 ❖	In negative scale values it’ll not look for placement of decimal point instead it’ll try to round off.
     1.Number (7 ,-1) –  inserted value is 1234567 
-   Since scale is -1 it’ll look for one’s digit (i.e) 7 and that 7>5 so compiler will round up so the value it’ll store is 1234570. Still the precision length is 7 only so it’ll be accepted by compiler.
+    Since scale is -1 it’ll look for one’s digit (i.e) 7 and that 7>5 so compiler will round up so the value it’ll store is 1234570. Still the precision length is 7 only so it’ll be accepted by compiler.
     2.Number (7, -1) – inserted value is 1234563 
-   Since scale is -1 it’ll look for one’s digit (i.e) 3 and that 7<5 so compiler will round down so the value it’ll store is 1234560. Still the precision length is 7 only so it’ll be accepted by compiler
+    Since scale is -1 it’ll look for one’s digit (i.e) 3 and that 7<5 so compiler will round down so the value it’ll store is 1234560. Still the precision length is 7 only so it’ll be accepted by compiler
 
 
 ADDITIONAL DATA TYPES:
